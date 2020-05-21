@@ -36,7 +36,7 @@ There are 3 moves:
 
 The acceptable file should be constructed line by line in the form below:
 ~~~
-<present_state> <read_character> <write_character> <move_direction> <next_state>
+<current_state> <read_character> <write_character> <move_direction> <next_state>
 ~~~
 Below is a sample of such file:
 ~~~
