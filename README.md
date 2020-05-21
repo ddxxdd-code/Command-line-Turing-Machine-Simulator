@@ -17,13 +17,21 @@ Run the program called `turingMachine` followed by the configuration file:
 ~~~
 $ ./turingMachine config.txt
 ~~~
-Or you can pick one initial stage by
+Or you can pick one initial stage:
 ~~~
 $ ./turingMachine config.txt initialStage
 ~~~
 Then the program will ask you to write the initial sequence.
 The running stage and result will be send to stdout.
 When there is no transition from the current status, the machine will halt.
+As an example, with the file [sample00.txt](sample00.txt), we can run the program by
+~~~
+$ ./turingMachine sample00.txt
+~~~
+or 
+~~~
+$ ./turingMachine sample00.txt s2
+~~~
 ## Clean the directory
 ~~~
 $ make clean
