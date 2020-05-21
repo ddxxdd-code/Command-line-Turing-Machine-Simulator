@@ -34,7 +34,7 @@ There are 3 moves:
 * Move right: R
 * Stay: S
 
-The acceptable file should be in the form below:
+The acceptable file should be constructed line by line in the form below:
 ~~~
 <present_state> <read_character> <write_character> <move_direction> <next_state>
 ~~~
