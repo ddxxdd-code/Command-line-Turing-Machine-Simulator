@@ -46,7 +46,7 @@ The acceptable file should be constructed line by line in the form below:
 ~~~
 <current_state> <read_character> <write_character> <move_direction> <next_state>
 ~~~
-Below is two samples of such file:
+Below are two samples of such file:
 ~~~
 s1 0 0 r s2
 s2 1 0 l s2
