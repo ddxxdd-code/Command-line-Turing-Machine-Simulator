@@ -46,12 +46,18 @@ The acceptable file should be constructed line by line in the form below:
 ~~~
 <current_state> <read_character> <write_character> <move_direction> <next_state>
 ~~~
-Below is a sample of such file:
+Below is two samples of such file:
 ~~~
 s1 0 0 r s2
 s2 1 0 l s2
 s2 _ 1 s s1
 ~~~
+~~~
+s1 0 0 R s2
+s2 1 0 L s2
+s2 _ 1 S s1
+~~~
 ## Comments
 * The blank tape is set to be represented as `"_"`,\
 so there is a fixed character you should use when writing the configuration file.
+* The program accepts both lower and upper character representing the move direction.
