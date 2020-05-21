@@ -1,4 +1,4 @@
-# Turing Machine
+# Turing Machine Simulator
  A simple Turing machine without graphic interface.
  ### Change Log
  * 2020-05-17 Created this file.
