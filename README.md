@@ -33,8 +33,8 @@ There are 3 moves:
 * Move left: L
 * Move right: R
 * Stay: S
-Each follows one value of change.\
-The acceptedfile should be in the form below:\
+
+The acceptable file should be in the form below:
 ~~~
 <present_state> <read_character> <write_character> <move_direction> <next_state>
 ~~~
